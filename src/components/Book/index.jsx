@@ -11,8 +11,8 @@ const Book = () => {
         <form action="" className='pl-10'>
           <input type="text" className='block mb-10 p-2 w-80 outline-none border-b-2 border-b-transparent focus:border-b-blue-600 transition-all duration-75' placeholder='Full Name' />
           <input type="text" className='block mb-10 p-2 w-80 outline-none border-b-2 border-b-transparent focus:border-b-blue-600 transition-all duration-75' placeholder='Email Address' />
-          <input id="rad1" type="radio" name="rad" className='hidden ' /><label for="rad1" className='text-xl font-bold text-muted mr-10'><span></span>Small tour group</label>
-          <input id="rad2" type="radio" name="rad" className='hidden' /><label for="rad2" className='text-xl font-bold text-muted md:inline inline-block md:mt-0 mt-5'><span></span>Small tour group</label>
+          <input id="rad1" type="radio" name="rad" className='hidden ' /><label for="rad1" className='text-xl font-bold text-muted mr-10'><span className='cursor-pointer'></span>Small tour group</label>
+          <input id="rad2" type="radio" name="rad" className='hidden' /><label for="rad2" className='text-xl font-bold text-muted md:inline inline-block md:mt-0 mt-5'><span className='cursor-pointer'></span>Small tour group</label>
           <div>
           <Button title="next step" classButton="!bg-blue-400 !text-white"/>
           </div>
