@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Headers from './components/Headers';
+import About from './components/About';
+import Features from './components/Features';
+import Tours from './components/Tours';
+import Stories from './components/Stories';
+import Book from './components/Book';
+import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App overflow-y-hidden scrol">
+      <Headers/>
+      <About/>
+      <Features/>
+      <Tours/>      
+      <Stories/>  
+      <Book/>
+      <Footer/>
     </div>
   );
 }
