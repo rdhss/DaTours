@@ -9,7 +9,7 @@ import ScrollAnimation from '../../utils/ScrollAnimation'
 const Features = () => {
 
   return (
-    <Section classContainer="skew-y-[-3deg] bg-features pb-40 !px-10">
+    <Section classContainer="skew-y-[-3deg] bg-features pb-40 !px-10" id="features">
         <div className='skew-y-[3deg] grid md:grid-cols-4 grid-cols-1 text-muted gap-4'>
           {featureItem.map(item => 
           <ScrollAnimation>

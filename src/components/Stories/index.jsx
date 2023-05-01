@@ -8,8 +8,9 @@ const Stories = () => {
   return (
     <Section
         head="WE MAKE PEOPLE GENUINELY HAPPY"
-        classContainer="text-center relative z-20 px-6 overflow-hidden"
+        classContainer="text-center relative  px-6 overflow-hidden"
         noScroll={true}
+        id="stories"
     >
         <video class="absolute top-0 left-0 opacity-20 z-[-1] scale-[10] md:scale-150" autoplay muted loop>
                         <source src={video1} type="video/mp4"/>

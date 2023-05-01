@@ -5,7 +5,7 @@ import './book.scss'
 
 const Book = () => {
   return (
-    <Section classContainer="!bg-testing mb-0 !mb-0">
+    <Section classContainer="!bg-testing mb-0 !mb-0" id="booking">
       <div className='book scale-[.9]'>
         <h1 className='text-gradient-base uppercase p-10 text-3xl font-bold'>start booking now</h1>
         <form action="" className='pl-10'>

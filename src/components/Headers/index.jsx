@@ -5,7 +5,7 @@ import Button from '../Button'
 
 const Headers = () => {
   return (
-    <header className="header h-[100vh] bg-headers relative flex items-center">
+    <header className="header h-[100vh] bg-headers relative flex items-center" id='home'>
         <div className="logo-box">
             <img src={logoHeader} alt="logo" className="absolute top-6 left-5" width={50}/>
         </div>

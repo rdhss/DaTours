@@ -5,7 +5,7 @@ import Package from '../Package'
 
 const Tours = () => {
   return (
-    <Section head="MOST POPULAR TOURS" classContainer="pt-72 mt-[-18rem] text-center">
+    <Section head="MOST POPULAR TOURS" classContainer="pt-72 mt-[-18rem] text-center" id="tours">
       <div className='grid md:grid-cols-3 grid-cols-1 md:gap-y-10 gap-y-20 ml-10'>
       <Package/>
       <Package/>
