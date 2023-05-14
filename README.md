@@ -8,7 +8,7 @@
 
 ## Description
 
-RipeBites is webapp that enables travelers to plan, book, and manage their trips. These apps provide a one-stop-shop for users to research, book, and organize tours, activities, and experiences in destinations around the world.ep
+DaTours is webapp that enables travelers to plan, book, and manage their trips. These apps provide a one-stop-shop for users to research, book, and organize tours, activities, and experiences in destinations around the world.ep
 
 ## Built With
 
