@@ -1,5 +1,5 @@
 <h1 align="center">
-  RipeBites
+  DaTours
 </h1>
 <div align="center">
   <img alt="Logo" src="./src/images/readme.png" />
