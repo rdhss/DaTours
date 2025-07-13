@@ -41,10 +41,3 @@ DaTours is webapp that enables travelers to plan, book, and manage their trips. 
   <img alt="Logo" src="./src/images/readme.png" />
 </div>
 
-<div align="center">
-  <img alt="Logo" src="./src/images/readme2.png" />
-</div>
-
-<div align="center">
-  <img alt="Logo" src="./src/images/readme3.png" />
-</div>
